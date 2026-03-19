@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import './global.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─────────────────────────────────────────────
+   BASE
+───────────────────────────────────────────── */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text-primary);
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track  { background: var(--color-scrollbar-track); }
+  ::-webkit-scrollbar-thumb  { background: var(--color-scrollbar-thumb); border-radius: 2px; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--color-accent); }
+}
+
+/* ─────────────────────────────────────────────
+   SEMANTIC COMPONENT CLASSES
+   Use these in JSX instead of raw Tailwind color tokens.
+───────────────────────────────────────────── */
+@layer components {
+
+  /* ── Page shells ── */
+  .pg-bg        { background-color: var(--color-bg); }
+  .pg-bg-subtle { background-color: var(--color-bg-subtle); }
+  .pg-bg-muted  { background-color: var(--color-bg-muted); }
+
+  /* ── Surfaces ── */
+  .surface          { background-color: var(--color-surface); }
+  .surface-hover    { background-color: var(--color-surface-hover); }
+
+  /* ── Borders ── */
+  .bd             { border-color: var(--color-border); }
+  .bd-subtle      { border-color: var(--color-border-subtle); }
+  .bd-accent      { border-color: var(--color-border-accent); }
+
+  /* ── Typography ── */
+  .tx-primary   { color: var(--color-text-primary); }
+  .tx-secondary { color: var(--color-text-secondary); }
+  .tx-muted     { color: var(--color-text-muted); }
+  .tx-faint     { color: var(--color-text-faint); }
+  .tx-inverted  { color: var(--color-text-inverted); }
+  .tx-accent    { color: var(--color-accent); }
+  .tx-accent-text { color: var(--color-accent-text); }
+
+  /* ── Accent fills ── */
+  .fill-accent        { background-color: var(--color-accent); }
+  .fill-accent-subtle { background-color: var(--color-accent-subtle); }
+  .fill-accent-muted  { background-color: var(--color-accent-muted); }
+
+  /* ── Badge (award) ── */
+  .badge {
+    background-color: var(--color-badge-bg);
+    color: var(--color-badge-text);
+  }
+  .badge-sub { color: var(--color-badge-sub); }
+
+  /* ── Button primary ── */
+  .btn-primary {
+    background-color: var(--color-btn-primary-bg);
+    color: var(--color-btn-primary-text);
+  }
+  .btn-primary:hover {
+    background-color: var(--color-btn-primary-hover);
+  }
+
+  /* ── Button secondary ── */
+  .btn-secondary {
+    background-color: var(--color-btn-secondary-bg);
+    color: var(--color-btn-secondary-text);
+    border-color: var(--color-btn-secondary-border);
+  }
+  .btn-secondary:hover {
+    background-color: var(--color-btn-secondary-hover-bg);
+    border-color: var(--color-btn-secondary-hover-border);
+  }
+
+  /* ── Cards / items ── */
+  .card {
+    background-color: var(--color-surface);
+    border-color: var(--color-border);
+  }
+  .card:hover {
+    border-color: var(--color-border-accent);
+    background-color: var(--color-surface-hover);
+  }
+
+  /* ── Cert/list row ── */
+  .list-row {
+    background-color: var(--color-surface);
+    border-color: var(--color-border);
+  }
+  .list-row:hover {
+    border-color: var(--color-border-accent);
+    background-color: var(--color-accent-subtle);
+  }
+
+  /* ── Tag pills ── */
+  .tag {
+    background-color: var(--color-bg-muted);
+    color: var(--color-text-secondary);
+    border-color: var(--color-border);
+  }
+  .tag:hover {
+    background-color: var(--color-accent-subtle);
+    border-color: var(--color-border-accent);
+    color: var(--color-accent-text);
+  }
+
+  /* ── "View All" links / icon links ── */
+  .link-muted {
+    color: var(--color-text-muted);
+  }
+  .link-muted:hover { color: var(--color-accent); }
+
+  /* ── Hero section ── */
+  .hero-section {
+    background-color: var(--color-surface);
+    border-color: var(--color-border);
+  }
+
+  /* ── Section dividers ── */
+  .divider { border-color: var(--color-border); }
+  .divider-subtle { border-color: var(--color-border-subtle); }
+
+  /* ── Toggle button ── */
+  .theme-toggle {
+    background-color: var(--color-toggle-bg);
+    color: var(--color-toggle-text);
+  }
+  .theme-toggle:hover { background-color: var(--color-toggle-hover); }
+
+  /* ── Testimonial avatar ── */
+  .avatar {
+    background-color: var(--color-accent-muted);
+    color: var(--color-accent-text);
+  }
+
+  /* ── Scroll-to-top ── */
+  .scroll-top {
+    background-color: var(--color-btn-primary-bg);
+    color: var(--color-btn-primary-text);
+  }
+  .scroll-top:hover { background-color: var(--color-btn-primary-hover); }
+
+  /* ── Experience dots ── */
+  .dot-work      { background-color: var(--color-dot-work); }
+  .dot-education { background-color: var(--color-dot-education); }
+  .dot-milestone { background-color: var(--color-dot-milestone); }
+
+  /* ── Photo placeholder ── */
+  .photo-placeholder {
+    background-color: var(--color-bg-muted);
+    color: var(--color-text-faint);
+  }
+}
+
+/* ─────────────────────────────────────────────
+   UTILITIES
+───────────────────────────────────────────── */
+@layer utilities {
+  .reveal {
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  .reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

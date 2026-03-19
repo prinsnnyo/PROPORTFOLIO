@@ -1,0 +1,131 @@
+/* ─────────────────────────────────────────────
+   THEME TOKENS
+   Light mode is the default (:root).
+   Dark mode activates when <html data-theme="dark">.
+───────────────────────────────────────────── */
+
+:root {
+  /* Page */
+  --color-bg:           #ffffff;
+  --color-bg-subtle:    #f5f5f5;
+  --color-bg-muted:     #f0f0f0;
+
+  /* Surfaces (cards, inputs) */
+  --color-surface:      #ffffff;
+  --color-surface-hover:#f9f7ff;
+
+  /* Borders */
+  --color-border:       #e5e5e5;
+  --color-border-subtle:#f0f0f0;
+  --color-border-accent:#ddd6fe;
+
+  /* Text */
+  --color-text-primary:  #171717;
+  --color-text-secondary:#525252;
+  --color-text-muted:    #737373;
+  --color-text-faint:    #a3a3a3;
+  --color-text-inverted: #ffffff;
+
+  /* Accent (violet) */
+  --color-accent:        #7c3aed;
+  --color-accent-hover:  #6d28d9;
+  --color-accent-subtle: #f5f3ff;
+  --color-accent-border: #ddd6fe;
+  --color-accent-text:   #5b21b6;
+  --color-accent-muted:  #ede9fe;
+
+  /* Badge */
+  --color-badge-bg:      #7c3aed;
+  --color-badge-text:    #ffffff;
+  --color-badge-sub:     #ddd6fe;
+
+  /* Button primary (dark pill) */
+  --color-btn-primary-bg:    #171717;
+  --color-btn-primary-text:  #ffffff;
+  --color-btn-primary-hover: #404040;
+
+  /* Button secondary (outlined) */
+  --color-btn-secondary-bg:    transparent;
+  --color-btn-secondary-text:  #404040;
+  --color-btn-secondary-border:#d4d4d4;
+  --color-btn-secondary-hover-bg:    #fafafa;
+  --color-btn-secondary-hover-border:#a3a3a3;
+
+
+  /* Scrollbar */
+  --color-scrollbar-track: #f5f5f5;
+  --color-scrollbar-thumb: #d4d4d4;
+
+  /* Theme toggle button */
+  --color-toggle-bg:     #e5e5e5;
+  --color-toggle-text:   #525252;
+  --color-toggle-hover:  #d4d4d4;
+
+  /* Experience dots */
+  --color-dot-work:      #171717;
+  --color-dot-education: #a3a3a3;
+  --color-dot-milestone: #d4d4d4;
+}
+
+[data-theme="dark"] {
+  /* Page */
+  --color-bg:           #0f0f0f;
+  --color-bg-subtle:    #171717;
+  --color-bg-muted:     #1f1f1f;
+
+  /* Surfaces */
+  --color-surface:      #171717;
+  --color-surface-hover:#1e1530;
+
+  /* Borders */
+  --color-border:       #2a2a2a;
+  --color-border-subtle:#1f1f1f;
+  --color-border-accent:#4c1d95;
+
+  /* Text */
+  --color-text-primary:  #f5f5f5;
+  --color-text-secondary:#d4d4d4;
+  --color-text-muted:    #a3a3a3;
+  --color-text-faint:    #737373;
+  --color-text-inverted: #171717;
+
+  /* Accent (violet) */
+  --color-accent:        #a78bfa;
+  --color-accent-hover:  #c4b5fd;
+  --color-accent-subtle: #1e1530;
+  --color-accent-border: #4c1d95;
+  --color-accent-text:   #c4b5fd;
+  --color-accent-muted:  #2e1065;
+
+  /* Badge */
+  --color-badge-bg:      #7c3aed;
+  --color-badge-text:    #ffffff;
+  --color-badge-sub:     #c4b5fd;
+
+  /* Button primary */
+  --color-btn-primary-bg:    #f5f5f5;
+  --color-btn-primary-text:  #171717;
+  --color-btn-primary-hover: #e5e5e5;
+
+  /* Button secondary */
+  --color-btn-secondary-bg:    transparent;
+  --color-btn-secondary-text:  #d4d4d4;
+  --color-btn-secondary-border:#3a3a3a;
+  --color-btn-secondary-hover-bg:    #1f1f1f;
+  --color-btn-secondary-hover-border:#525252;
+
+
+  /* Scrollbar */
+  --color-scrollbar-track: #171717;
+  --color-scrollbar-thumb: #3a3a3a;
+
+  /* Theme toggle */
+  --color-toggle-bg:     #2a2a2a;
+  --color-toggle-text:   #d4d4d4;
+  --color-toggle-hover:  #3a3a3a;
+
+  /* Experience dots */
+  --color-dot-work:      #d4d4d4;
+  --color-dot-education: #737373;
+  --color-dot-milestone: #525252;
+}

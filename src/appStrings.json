@@ -1,0 +1,43 @@
+{
+  "hero": {
+    "scheduleCall": "Schedule a Call",
+    "sendEmail": "Send Email"
+  },
+  "about": {
+    "heading": "About"
+  },
+  "techStack": {
+    "heading": "Tech Stack",
+    "viewAll": "View All"
+  },
+  "projects": {
+    "heading": "Recent Projects",
+    "viewAll": "View All"
+  },
+  "certifications": {
+    "heading": "Recent Certifications",
+    "viewAll": "View All"
+  },
+  "memberships": {
+    "heading": "A member of",
+    "socialHeading": "Social Links",
+    "socials": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "instagram": "Instagram"
+    }
+  },
+  "experience": {
+    "heading": "Experience"
+  },
+  "testimonials": {
+    "heading": "Recommendations"
+  },
+  "gallery": {
+    "heading": "Gallery",
+    "altPrefix": "Gallery"
+  },
+  "footer": {
+    "allRightsReserved": "All rights reserved."
+  }
+}
