@@ -120,15 +120,6 @@ export const projects = [
     tags: ["React", "Python"],
   },
   {
-    emoji: "🔎",
-    name: "Agrinet",
-    tagline: "Digital Agriculture Network",
-    url: "agrinet-xy.vercel.app",
-    href: "https://agrinet-xy.vercel.app/",
-    github: "#",
-    tags: ["React", "Tailwind CSS"],
-  },
-  {
     emoji: "🌾",
     name: "Agrinet",
     tagline: "Digital Agriculture Network",
