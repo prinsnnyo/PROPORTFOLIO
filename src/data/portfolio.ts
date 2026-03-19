@@ -102,7 +102,7 @@ export const projects = [
     tags: ["Vue.js", "Django"],
   },
   {
-    emoji: "👗",
+    emoji: "🚌",
     name: "BusWise",
     tagline: "Digital Bus Tracker",
     url: "tracker-khaki-ten.vercel.app",
