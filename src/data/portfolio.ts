@@ -17,7 +17,8 @@ export const personalInfo = {
 };
 
 export const experiences = [
-  { role: "Frontend Developer",   company: "DOSTrack | Internship",          year: "2026", type: "work" },
+  { role: "Full Stack Developer",        company: "Caraga State University",   year: "2026 — Present", type: "work" },
+  { role: "Frontend Developer",          company: "DOSTrack | Internship",     year: "2026", type: "work" },
   { role: "AI Developer / Full-Stack Developer", company: "BizNest Technologies", year: "2025", type: "work" },
   { role: "Full-Stack Developer",        company: "ATENDA",                    year: "2024", type: "work" },
   { role: "Designer",                    company: "Nexus Inc.",                year: "2023", type: "work" },
