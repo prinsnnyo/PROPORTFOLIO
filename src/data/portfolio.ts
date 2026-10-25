@@ -93,7 +93,15 @@ export const projects = [
     github: "#",
     tags: ["React", "Next.js"],
   },
- 
+  {
+    emoji: "🪺",
+    name: "BizNest",
+    tagline: "AI-powered business platform",
+    url: "rstw-biznest.vercel.app",
+    href: "https://rstw-biznest.vercel.app/",
+    github: "#",
+    tags: ["React", "Next.js"],
+  },
   {
     emoji: "💻",
     name: "rentacomputer",
