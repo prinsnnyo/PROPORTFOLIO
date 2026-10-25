@@ -143,7 +143,7 @@ export const projects = [
     name: "USAD-beta",
     tagline: "Online platform for yearners",
     url: "freedomwall-beta.vercel.app",
-    href: "https://freedomwall-beta.vercel.app/",
+    href: "https://piste-ivory.vercel.app/",
     github: "#",
     tags: ["React", "Supabase"],
   },
