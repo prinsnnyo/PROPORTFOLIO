@@ -168,6 +168,8 @@ export const projects = [
 ];
 
 export const certifications = [
+  { name: "Data Cleaning and Analysis with Python", issuer: "DOST" },
+  { name: "Blockchain Workshop", issuer: "DOST" },
   { name: "Design Thinking and Technopreneurship Training", issuer: "Huawei" },
   { name: "Capacity Building for Startup Growth: Legal Compliance Essentials",    issuer: "Google" },
   { name: "Software Engineering",    issuer: "TestDome" },
