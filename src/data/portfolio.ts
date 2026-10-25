@@ -85,6 +85,16 @@ export const techStack = [
 
 export const projects = [
   {
+    emoji: "🌮",
+    name: "Foodsafe Hub",
+    tagline: "MSME Food Safety Compliance",
+    url: "dost-startup.vercel.app",
+    href: "https://dost-startup.vercel.app/",
+    github: "#",
+    tags: ["React", "Next.js"],
+  },
+ 
+  {
     emoji: "💻",
     name: "rentacomputer",
     tagline: "Trusted choice for computer rentals",
